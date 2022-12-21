@@ -1,5 +1,5 @@
 <?php
-    echo("Подождите <br>");
+    echo("Ожидайте <br>");//вместо подождите вывел ожидайте
     $masFoto = scandir($_POST['adres']);
     foreach($masFoto as $foto){
         $foto = explode(".",$foto);
